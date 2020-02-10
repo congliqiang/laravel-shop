@@ -27,7 +27,6 @@ class RiakServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-        echo 0;
+
     }
 }

@@ -11,12 +11,4 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-Route::get('/', 'IndexController@home');
-Route::get('/students', 'StudentController@index');
-Route::get('char', function () {
-    return '通过';
-});
+Route::get('/', 'PagesController@root')->name('root');
